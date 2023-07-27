@@ -21,7 +21,8 @@
           pkgs.python3Packages.matplotlib
           pkgs.python3Packages.notebook
           pkgs.python3Packages.ipython
-        ];
+          pkgs.python3Packages.graphviz
+         ];
       };
     });
 }
